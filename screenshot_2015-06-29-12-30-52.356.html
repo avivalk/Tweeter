@@ -1,0 +1,38 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <title>Tweeter</title>
+  <link rel="stylesheet" media="all" href="/assets/chirps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/scaffolds.self-011ff1a48f9e250e2498c446a49e8a7a1b2f8c676c5e050ac5db55055aaaf0cd.css?body=1" data-turbolinks-track="true" />
+<link rel="stylesheet" media="all" href="/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" data-turbolinks-track="true" />
+  <script src="/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/chirps.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="xZHhm/EvUVoDos2OqFw9nJT2U8o56sW+g0yQ8Yipq3FsZ23x8RFwo6zq4Ll6IK/L52QwviUbuBkkN4C4KG8gSQ==" />
+</head>
+<body>
+
+<h1>New Chirp</h1>
+
+<form class="new_chirp" id="new_chirp" action="/chirps" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓" /><input type="hidden" name="authenticity_token" value="gypi5IDzfPBoqqXhFEjCNn1zxnGXFF8rZuDoH9fUdcYq3O6OgM1dCcfiiNbGNFBhDuGlBYvlIozBm/hWdxL+/g==" />
+
+  <div class="field">
+    <label for="chirp_body">Body</label><br />
+    <input type="text" name="chirp[body]" id="chirp_body" />
+  </div>
+  <div class="field">
+    <label for="chirp_user_id">User</label><br />
+    <input type="number" name="chirp[user_id]" id="chirp_user_id" />
+  </div>
+  <div class="actions">
+    <input type="submit" name="commit" value="Create Chirp" />
+  </div>
+</form>
+
+<a href="/chirps">Back</a>
+
+
+
+
+</body></html>
